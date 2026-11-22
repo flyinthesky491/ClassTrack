@@ -1,0 +1,22 @@
+{
+  "name": "attendance-fee-system",
+  "version": "1.0.0",
+  "description": "Class Attendance and Fee Management System for teachers",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^18.0.10",
+    "express": "^5.3.0",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.24.6",
+    "pdfkit": "^0.20.2"
+  }
+}
